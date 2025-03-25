@@ -15,6 +15,7 @@
 **🚀 Master RAG with RAG Time!** Learn how to build smarter AI applications with Retrieval-Augmented Generation. This repo includes **step-by-step guides, live coding samples, and expert insights**—everything you need to go from beginner to RAG pro!
 
 ## 🤔 Why Learn RAG with RAG Time?
+
 - **Expert-Led** – Learn directly from AI & Microsoft experts.
 - **Future-Proof Your AI Skills** – Stay ahead with cutting-edge retrieval techniques.
 - **Exclusive Video Content** – Interviews with AI leaders, in-depth tech talks, and practical demonstrations.
@@ -35,20 +36,21 @@
 RAG Time runs every **Wednesday at 9AM PT** from **March 5th to April 2nd**. Each journey covers unique topics with leadership insights, tech talks, and code samples
 | **Journey Page**                                                                                                             | **Description**                                                     | **Video**                                 | **Code Sample**                                                                 | **Blog**                                   |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| [RAG and Knowledge Retrieval fundamentals](./Journey%201%20-%20RAG%20and%20Indexing%20Fundamentals/README.md)                           | Understand the strategic importance of RAG and indexing             | [Watch now](https://aka.ms/rag-time/journey1) | [Sample](./Journey%201%20-%20RAG%20and%20Indexing%20Fundamentals/sample/1-RAG-Fundamentals.ipynb)                                                | [Journey 1](https://aka.ms/rag-time/journey1-blog) |
+| [RAG and Knowledge Retrieval Fundamentals](./Journey%201%20-%20RAG%20and%20Indexing%20Fundamentals/README.md)                           | Understand the strategic importance of RAG and knowledge retrieval           | [Watch now](https://aka.ms/rag-time/journey1) | [Sample](./Journey%201%20-%20RAG%20and%20Knowledge%20Retrieval%20Fundamentals/sample/1-RAG-Fundamentals.ipynb)                                                | [Journey 1](https://aka.ms/rag-time/journey1-blog) |
 | [Build the Ultimate Retrieval System](./Journey%202%20-%20Build%20the%20Ultimate%20Retrieval%20System%20for%20RAG/README.md) | Explore how Azure AI Search powers retrieval system                 | [Watch now](https://aka.ms/rag-time/journey2) | [Sample](./Journey%202%20-%20Build%20the%20Ultimate%20Retrieval%20System%20for%20RAG/sample/2-Build-The-Ultimate-Retrieval-System-For-RAG.ipynb) | [Journey 2](https://aka.ms/rag-time/journey2-blog)                                     |
 | [Optimize Your Vector Index at Scale](./Journey%203%20-%20Optimize%20your%20Vector%20Index%20for%20Scale/README.md)          | Learn real-world optimization techniques for scaling vector indexes | [Watch now](https://aka.ms/rag-time/journey3) | [Sample](./Journey%203%20-%20Optimize%20your%20Vector%20Index%20for%20Scale/sample/3-Vector-Compression.ipynb)                                   | [Journey 3](https://aka.ms/rag-time/journey3-blog)                                   |
 | [RAG for All Your Data](./Journey%204%20-%20RAG%20for%20All%20your%20Data%20Multimodal%20and%20Beyond/README.md)             | Discover how multimodal data can be indexed and retrieved           | [📺 Streaming on March 26th, 9AM PT](https://aka.ms/rag-time/journey4) | [Sample](./Journey%204%20-%20RAG%20for%20All%20your%20Data%20Multimodal%20and%20Beyond/sample/README.md)                                         | Coming soon!                                     |
 | [Hero Use-Cases for RAG](./Journey%205%20-%20Hero%20use%20cases%20for%20RAG/README.md)                                       | Get inspired by hero use cases of RAG in action                     | [📺 Streaming on April 2nd, 9AM PT](https://aka.ms/rag-time/journey5) | [Sample](./Journey%205%20-%20Hero%20use%20cases%20for%20RAG/sample/README.md)                                                                    | Coming soon!                                     |
+| [Agentic RAG](./xBonus%20Journey%20-%20Agentic%20RAG/README.md)                                       | Get inspired by hero use cases of RAG in action                     | Coming Soon! | Coming Soon!                                                                | Coming soon!                                     |
+
 ### Content Release Schedule
 
 ![journeys weekly](./images/journeys-weekly.png)
 
-
-
 ## 🙏 Get Involved
 
 We'd love to see you contributing to our repo and engaging with the experts with your questions!
+
 - 🤔 Do you have suggestions or have you found spelling or code errors? [Raise an issue](https://github.com/microsoft/rag-time/issues) or [Create a pull request](https://github.com/microsoft/rag-time/pulls).
 - 🚀 If you get stuck or have any questions about RAG, join our [Azure AI Community Discord](https://discord.com/channels/1113626258182504448/1343540943533637663).
 
