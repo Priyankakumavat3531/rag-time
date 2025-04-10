@@ -1,6 +1,6 @@
 # Journey 5: Hero Use Cases for RAG
 
-![Journey 5 Context](./../images/j5.png)
+[![Journey 1 video](https://github.com/user-attachments/assets/0466df79-f37a-45f4-a767-52097a83870d)](https://aka.ms/rag-time/journey5)
 
 ## Overview
 
@@ -8,7 +8,9 @@ Welcome to Journey 5: Hero Use Cases for RAG. This space is designed to help you
 
 In this journey, we explore real-world industry use cases, key lessons from deploying RAG, common pitfalls to avoid, and the importance of Responsible AI. You’ll also gain insights into optimizing retrieval strategies, enhancing performance, and managing costs when building AI-powered search applications.
 
-**📅 April 2nd, 9AM PT | 📺 [Watch the session](https://aka.ms/rag-time/journey5)**
+* **📺 [Watch the session](https://aka.ms/rag-time/journey5)**
+* **📝 [Read the blog post](https://aka.ms/rag-time/journey5-blog)**
+* **🚀 [Test the sample](./sample/)**
 
 ## 🎥 Session Summary
 
@@ -36,8 +38,8 @@ To get hands-on experience, explore the sample implementation in the 📂 [Journ
 
 ## 🔗 Additional Learning Resources
 
-📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
+- 📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
+- 📝 Read the Blog for Journey 5: [Build the Ultimate Retrieval System for RAG](https://aka.ms/rag-time/journey5-blog)
+- 💬 Join the Discussion: Ask your questions on our [Discord channel](https://aka.ms/rag-time/discord)
 
-💬 Join the Discussion: What’s your hero use case for RAG? Have you explored real-time AI-powered retrieval in your projects? Share your thoughts in GitHub Discussions, or open an issue in this repository. Let’s exchange ideas and push the boundaries of AI-powered search together!
-
-Your RAG journey doesn't end here! Continue learning about RAG Solutions in [RAGChat series](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/rag-deep-dive-watch-all-the-recordings/4383171) 🚀
+### Your RAG journey doesn't end here! Check out the [Bonus Journey - Agentic RAG](./../Journey%20Bonus%20-%20Agentic%20RAG) to build your first Agentic RAG solution! 🚀
