@@ -1,6 +1,6 @@
 # Journey 4: RAG for All Your Data – Multimodal and Beyond
 
-<img width="960" alt="p4" src="https://github.com/user-attachments/assets/b6c45f1e-6bbe-4f6e-95ee-5bb949c15b95" />
+[![Journey 4 video](https://github.com/user-attachments/assets/b6c45f1e-6bbe-4f6e-95ee-5bb949c15b95)](https://aka.ms/rag-time/journey4)
 
 ## Overview
 
@@ -37,7 +37,7 @@ To get hands-on experience, explore the sample implementation in the 📂 [Journ
 ## 🔗 Additional Learning Resources
 
 - 📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
-- 📝 Read the Blog for Journey 2: [Build the Ultimate Retrieval System for RAG](https://aka.ms/rag-time/journey4-blog)
+- 📝 Read the Blog for Journey 4: [Build the Ultimate Retrieval System for RAG](https://aka.ms/rag-time/journey4-blog)
 - 💬 Join the Discussion: Ask your questions on our [Discord channel](https://aka.ms/rag-time/discord)
 
 ### 🚀 Next Up: Continue to [Journey 5](./../Journey%205%20-%20Hero%20use%20cases%20for%20RAG/) for the next step—best practices and use cases for RAG!
