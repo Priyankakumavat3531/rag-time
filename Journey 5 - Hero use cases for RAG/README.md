@@ -1,6 +1,6 @@
 # Journey 5: Hero Use Cases for RAG
 
-[![Journey 1 video](https://github.com/user-attachments/assets/0466df79-f37a-45f4-a767-52097a83870d)](https://aka.ms/rag-time/journey5)
+[![Journey 5 video](https://github.com/user-attachments/assets/0466df79-f37a-45f4-a767-52097a83870d)](https://aka.ms/rag-time/journey5)
 
 ## Overview
 
