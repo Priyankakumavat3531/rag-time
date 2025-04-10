@@ -1,6 +1,6 @@
 # Journey 3: Optimizing Your Vector Index for Scale
 
-<img width="960" alt="p3" src="https://github.com/user-attachments/assets/85f7e477-b018-4864-bf5f-8d540c13b3e6" />
+[![Journey 3 video](https://github.com/user-attachments/assets/85f7e477-b018-4864-bf5f-8d540c13b3e6)](https://aka.ms/rag-time/journey3)
 
 ## Overview
 
@@ -35,7 +35,7 @@ To get hands-on experience, explore the sample implementation in the 📂 [Journ
 ## 🔗 Additional Learning Resources
 
 - 📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
-- 📝 Read the Blog for Journey 2: [Build the Ultimate Retrieval System for RAG](https://aka.ms/rag-time/journey3-blog)
+- 📝 Read the Blog for Journey 3: [Build the Ultimate Retrieval System for RAG](https://aka.ms/rag-time/journey3-blog)
 - 💬 Join the Discussion: Ask your questions on our [Discord channel](https://aka.ms/rag-time/discord)
 
 ### 🚀 Next Up: Continue to [Journey 4](./../Journey%204%20-%20RAG%20for%20All%20your%20Data%20Multimodal%20and%20Beyond/) for the next step—RAG for all your data, multimodal and beyond!
