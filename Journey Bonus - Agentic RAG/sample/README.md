@@ -9,6 +9,10 @@ The code first creates a sample index, then demonstrates 3 sample Agentic RAG st
 
 - An Azure subscription, with [access to Azure OpenAI](https://aka.ms/oai/access).
 
+- An [Azure AI Fondry Project](https://learn.microsoft.com/azure/ai-foundry/how-to/create-projects)
+
+- [Bing Grounding](https://learn.microsoft.com/azure/ai-services/agents/how-to/tools/bing-grounding) to access public data on the web
+
 - Azure AI Search, any version, but make sure search service capacity is sufficient for the workload. We recommend Basic or higher for this demo.
 
 - A deployment of the `text-embedding-3-large` embedding model in your Azure OpenAI service. As a naming convention, we name deployments after the model name: "text-embedding-3-large".
