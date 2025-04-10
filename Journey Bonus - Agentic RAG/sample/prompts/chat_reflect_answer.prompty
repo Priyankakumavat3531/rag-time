@@ -1,0 +1,44 @@
+---
+name: Chat
+description: Determine why a previous answer to a question (with chat history) was wrong using solely text sources.
+model:
+    api: chat
+sample:
+    user_query: Who ensures the compliance of the Northwind Health Plus plan with state regulations?
+    ungrounded_answer: "The compliance of the Northwind Health Plus plan with state regulations is ensured by Northwind Health, which strives to follow all applicable laws, including ERISA, the ACA, and the MHPAEA. The plan is required to meet minimum standards set by these laws and provide necessary benefits to participants [Northwind_Health_Plus_Benefits_Details.pdf#page=90][Northwind_Standard_Benefits_Details.pdf#page=85]."
+    past_messages:
+        - role: user
+          content: "What does a CEO do?"
+        - role: assistant
+          content: "A CEO, or Chief Executive Officer, is responsible for providing strategic direction and oversight to a company to ensure its long-term success and profitability. They develop and implement strategies and objectives for financial success and growth, provide guidance to the executive team, manage day-to-day operations, ensure compliance with laws and regulations, develop and maintain relationships with stakeholders, monitor industry trends, and represent the company in public events 12. [role_library.pdf#page=1][role_library.pdf#page=3]"
+    text_sources:
+        - "Northwind_Health_Plus_Benefits_Details.pdf#page=90:  However, some cases may take longer to resolve. Finally, be sure to keep a record of all correspondence with Northwind Health Plus. This includes any phone calls, emails, or letters you send or receive. This will help ensure that your complaint or appeal is being addressed in a timely manner. OTHER INFORMATION ABOUT THIS PLAN Conformity With The Law OTHER INFORMATION ABOUT THIS PLAN - CONFORMITY WITH THE LAW Northwind Health Plus is in compliance with applicable state and federal laws and regulations, including the Employee Retirement Income Security Act (ERISA). This plan is also compliant with the Affordable Care Act (ACA) and the Mental Health Parity and Addiction Equity Act (MHPAEA). Under ERISA, the plan must provide certain benefits, such as protection from discrimination, vesting rights, and reasonable notice of plan changes. The plan must also provide detailed information to participants, such as a Summary Plan Description (SPD), which outlines plan provisions and benefits. Under the ACA, Northwind Health Plus must provide essential health benefits, such as ambulatory patient services, hospitalization, \n If you have exhausted the appeals process within Northwind Health and you believe that your appeal or grievance was not adequately addressed, you can contact your state's insurance department or the federal Department of Health and Human Services for more information about the external review process. OTHER INFORMATION ABOUT THIS PLAN Conformity With The Law OTHER INFORMATION ABOUT THIS PLAN: Conformity With The LawContoso and Northwind Health understand the importance of following the law when it comes to employee benefits and strive to ensure that the Northwind Standard plan is in compliance with all applicable laws. ERISA Requirements The Employee Retirement Income Security Act of 1974 (ERISA) sets minimum standards for pension and health plans in private industry. Northwind Standard meets the requirements established by ERISA, including providing employees with a Summary Plan Description and an annual report. COBRA The Consolidated Omnibus Budget Reconciliation Act (COBRA) gives employees and their families the right to continue their health coverage after a job loss or other qualifying event.\n Northwind_Health_Plus_Benefits_Details.pdf"
+---
+system:
+Assistant helps the company employees with their healthcare plan questions, and questions about the employee handbook. Be brief in your answers.
+Assistant is reflecting on why a previous answer was wrong. Assistant needs to determine how to correct the previous answer.
+Assistant has access to an internal search index to find additional information about healthcare plan and employee handbook questions
+Assistant has access to the web to find additional public information about healthcare
+
+If the question is not in English, answer in the language used in the question.
+If referencing a source, use square brackets to reference the source, for example [info1.txt].
+Don't combine sources, list each source separately, for example [info1.txt][info2.pdf].
+
+Explain *why* the previous answer was incorrect and *why* the follow up action is needed to correct the previous answer.
+You should *only* do a new internal search if the next query is significantly different than previous queries
+If the next query is not significantly different than previous queries, you should not do a new internal search.
+
+user:
+
+Previous Query:
+{{ previous_query }}
+
+Previous Answer:
+{{ previous_answer }}
+
+Previous Answer Evaluation:
+{{ previous_answer_evaluation }}
+
+Previous Sources:
+{{ previous_sources }}
+
