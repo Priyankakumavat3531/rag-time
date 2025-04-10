@@ -1,6 +1,6 @@
 # Journey 4: RAG for All Your Data – Multimodal and Beyond
 
-![Journey 4 Context](./../images/j4.png)
+<img width="960" alt="p4" src="https://github.com/user-attachments/assets/b6c45f1e-6bbe-4f6e-95ee-5bb949c15b95" />
 
 ## Overview
 
@@ -8,7 +8,9 @@ Welcome to **Journey 4: RAG for All Your Data – Multimodal and Beyond**. This 
 
 In this journey, we explore the importance of multimodal indexing, how Azure AI Foundry simplifies development, and strategies to scale multimodal RAG solutions efficiently. You’ll learn how integrated vectorization, Azure Document Intelligence, and content understanding improve retrieval accuracy and how query techniques like multi-vector search and vector weighting optimize responses.
 
-**📅 March 26th, 9AM PT | 📺 [Watch the session](https://aka.ms/rag-time/journey4)**
+* **📺 [Watch the session](https://aka.ms/rag-time/journey4)**
+* **📝 [Read the blog post](https://aka.ms/rag-time/journey4-blog)**
+* **🚀 [Test the sample](./sample/)**
 
 ## 🎥 Session Summary
 
@@ -35,7 +37,7 @@ To get hands-on experience, explore the sample implementation in the 📂 [Journ
 ## 🔗 Additional Learning Resources
 
 - 📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
+- 📝 Read the Blog for Journey 2: [Build the Ultimate Retrieval System for RAG](https://aka.ms/rag-time/journey4-blog)
+- 💬 Join the Discussion: Ask your questions on our [Discord channel](https://aka.ms/rag-time/discord)
 
-💬 Join the Discussion: Connect with the community in GitHub Discussions or open an issue in this repository.
-
-🚀 Next Up: Continue to [Journey 5](./../Journey%205%20-%20Hero%20use%20cases%20for%20RAG/) for the next step—best practices and use cases for RAG!
+### 🚀 Next Up: Continue to [Journey 5](./../Journey%205%20-%20Hero%20use%20cases%20for%20RAG/) for the next step—best practices and use cases for RAG!
