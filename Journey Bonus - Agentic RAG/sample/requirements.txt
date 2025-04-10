@@ -1,0 +1,9 @@
+azure-search-documents==11.5.2
+azure-ai-evaluation
+azure-ai-projects
+azure-identity
+aiohttp
+openai
+chainlit
+python-dotenv
+prompty
