@@ -25,9 +25,6 @@ evaluator_model_config = {
     "api_key": os.environ["AZURE_OPENAI_API_KEY"],
 }
 
-
-
-
 app_state = AppState(
     openai_client = AsyncAzureOpenAI(
         api_version=os.environ["AZURE_OPENAI_API_VERSION"],
@@ -135,7 +132,6 @@ async def on_message(msg: cl.Message):
 starters = [
  "What is included in my Northwind Health Plus plan that is not in standard?",
  "Who ensures the compliance of the Northwind Health Plus plan with state regulations?",
- "How do hospitals ensure patients receive emergency care?",
  "What is the deductible for prescription drugs provided by Northwind Health?"
 ]
 @cl.set_starters
