@@ -119,7 +119,7 @@ async def index_search(app_state: AppState, question: str, message_history: List
 async def web_search(app_state: AppState, query: str) -> WebSearchAction:
     # Initialize agent bing tool and add the connection id
     if not app_state.bing_tool:
-        bing_connection = await app_state.ai_project_client.connections.get_connection(app_state.bing_grounding_name)
+        bing_connection = await app_state.ai_project_client.connections.get(app_state.bing_grounding_name)
         app_state.bing_tool = BingGroundingTool(connection_id=bing_connection.id)
     search_agent = await app_state.agents.create_agent(
         model="gpt-4o",
