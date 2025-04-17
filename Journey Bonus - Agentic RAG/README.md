@@ -6,7 +6,7 @@ Unlike previous journeys, this one is a bit different. We’re not hosting a ded
 
 ## 📚 What You'll Discover
 
-* How to compare 3 different RAG strategies: Basic, Single-Step Reflection, and Multi-Step Reflection 
+How to compare 3 different RAG strategies: Basic, Single-Step Reflection, and Multi-Step Reflection 
 
 ## 📂 Sample Code
 
