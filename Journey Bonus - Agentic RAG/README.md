@@ -8,9 +8,14 @@ Unlike previous journeys, this one is a bit different. We’re not hosting a ded
 
 * How to compare 3 different RAG strategies: Basic, Single-Step Reflection, and Multi-Step Reflection 
 
-## 🌐 Resources
+## 📂 Sample Code
 
-Coming soon!
+To get hands-on experience, explore the sample implementation in the 📂 [Bonus Journey](./sample/) Sample folder.
+
+## 🔗 Additional Learning Resources
+
+- 📝 Read the Blog for Bonus Journey: [Agentic RAG](https://aka.ms/rag-time/journey5-blog)
+- 📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
 
 ## 💡 Join the Conversation
 
