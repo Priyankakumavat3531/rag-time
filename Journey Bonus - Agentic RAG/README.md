@@ -14,7 +14,7 @@ To get hands-on experience, explore the sample implementation in the 📂 [Bonus
 
 ## 🔗 Additional Learning Resources
 
-- 📝 Read the Blog for Bonus Journey: [Agentic RAG](https://aka.ms/rag-time/journey5-blog)
+- 📝 Read the Blog for Bonus Journey: [Agentic RAG](https://aka.ms/rag-time/journey6-blog)
 - 📚 Azure AI Search Documentation: [Learn more](https://learn.microsoft.com/en-us/azure/search/)
 
 ## 💡 Join the Conversation
