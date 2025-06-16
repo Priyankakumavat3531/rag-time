@@ -12,6 +12,8 @@
 
 [![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/REmjGvvFpW)
 
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
 🚀 Master RAG with RAG Time! Learn how to build smarter AI applications with Retrieval-Augmented Generation. This repo includes step-by-step guides, live coding samples, and expert insights—everything you need to go from beginner to RAG pro!
 
 **📺 All episodes of RAG Time are live! [Watch the full series now on YouTube.](https://aka.ms/rag-time/journeys)**
