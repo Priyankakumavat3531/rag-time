@@ -1,6 +1,6 @@
 azure-search-documents==11.5.2
 azure-ai-evaluation
-azure-ai-projects
+azure-ai-projects==1.0.0b10
 azure-identity
 aiohttp
 openai
